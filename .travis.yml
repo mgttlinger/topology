@@ -39,7 +39,7 @@ before_install:
   - opam repo add coq-extra-dev https://coq.inria.fr/opam/extra-dev || true
   - opam repo add coq-core-dev https://coq.inria.fr/opam/core-dev || true
   - source ./etc/ci/travis_keep_alive.sh
-  - opam install -j ${NJOBS} -y coq.${COQ_VERSION} coq-corn
+#  - opam install -j ${NJOBS} -y coq.${COQ_VERSION} coq-corn
 
 before_script:
   - uname -a
