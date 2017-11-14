@@ -1,7 +1,7 @@
 A programming language for topology and probability in Coq.
 
 ## Building
-
+[![Build Status](https://travis-ci.org/mgttlinger/topology.svg?branch=master)](https://travis-ci.org/mgttlinger/topology)
 This project is aimed at Coq version 8.6.
 To build, run `make` at the base level of the project directory.
 
